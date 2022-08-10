@@ -15,3 +15,22 @@ function sayHello(input) {
    }
 }
 
+function isFive(x) {
+    if(x == 5) {
+        return true
+    } else {
+        return false
+    }
+}
+
+function isEven(x) {
+
+}
+
+function isVowel(input) {
+
+}
+
+function add(x, y) {
+
+}
