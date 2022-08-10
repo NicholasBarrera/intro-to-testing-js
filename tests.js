@@ -33,6 +33,16 @@ describe('sayHello', function () {
     it("should return 'Hello, Pat'", function () {
         expect(sayHello("Pat")).toBe("Hello, Pat")
     });
+    it("should return 'Hello, World' when empty string is passed", function () {
+        expect(sayHello("")).toBe("Hello, World")
+    });
+    it("should return 'Hello, World' when true is passed", function () {
+        expect(sayHello(true)).toBe("Hello, World")
+    });
+    it("should return 'Hello, World' when false is passed", function () {
+        expect(sayHello(false)).toBe("Hello, World")
+    });
+
 });
 
 
